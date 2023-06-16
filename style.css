@@ -1,0 +1,185 @@
+.wrap {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%231e3266'%3e%3c/rect%3e%3cpath d='M1488 560L0 560 L0 346.26Q70.34 296.6%2c 120 366.93Q159.53 286.46%2c 240 325.98Q308.98 274.96%2c 360 343.93Q409.04 320.97%2c 432 370.01Q439.46 305.47%2c 504 312.93Q571.42 260.35%2c 624 327.77Q638.82 270.58%2c 696 285.4Q770.83 240.23%2c 816 315.06Q895.4 274.47%2c 936 353.87Q964.07 261.94%2c 1056 290Q1137.19 251.19%2c 1176 332.38Q1223.32 307.69%2c 1248 355.01Q1279.54 266.55%2c 1368 298.09Q1451.04 261.13%2c 1488 344.17z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1464 560L0 560 L0 353.89Q49.45 331.34%2c 72 380.79Q161.56 350.36%2c 192 439.92Q192.72 368.64%2c 264 369.37Q292.81 326.19%2c 336 355Q392.25 339.25%2c 408 395.49Q475.88 343.38%2c 528 411.26Q603.61 366.87%2c 648 442.47Q651.27 373.74%2c 720 377.01Q771.2 308.21%2c 840 359.41Q915.33 314.74%2c 960 390.06Q1001.31 359.37%2c 1032 400.67Q1109.99 358.67%2c 1152 436.66Q1180.1 344.75%2c 1272 372.85Q1355.22 336.08%2c 1392 419.3Q1398.12 353.41%2c 1464 359.53z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 453.74Q40.25 422%2c 72 462.25Q145.06 415.31%2c 192 488.36Q195.06 419.43%2c 264 422.49Q330.15 368.64%2c 384 434.79Q457.04 435.83%2c 456 508.86Q448.62 429.48%2c 528 422.1Q585.28 407.38%2c 600 464.67Q629 421.67%2c 672 450.67Q725.25 431.92%2c 744 485.17Q785.73 454.9%2c 816 496.64Q845.95 406.59%2c 936 436.54Q1015.42 395.97%2c 1056 475.39Q1081.75 429.13%2c 1128 454.88Q1180.87 435.75%2c 1200 488.62Q1271.56 440.18%2c 1320 511.74Q1358.64 430.38%2c 1440 469.02Q1481.66 438.68%2c 1512 480.34z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 555.23Q40.51 475.75%2c 120 516.26Q161.36 485.62%2c 192 526.97Q254.07 517.04%2c 264 579.1Q294.09 537.19%2c 336 567.29Q363.43 522.72%2c 408 550.16Q451.28 473.44%2c 528 516.73Q571.21 487.94%2c 600 531.16Q687.95 499.11%2c 720 587.06Q766.92 513.98%2c 840 560.91Q894.28 495.19%2c 960 549.48Q997.8 467.28%2c 1080 505.09Q1132.61 437.7%2c 1200 490.31Q1307.82 478.13%2c 1320 585.94Q1370.78 516.72%2c 1440 567.5Q1466.81 522.31%2c 1512 549.12z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-dark-to {
+    background-color: transparent !important;
+    color: black;
+}
+
+.navbar-brand {
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold !important;
+}
+
+.navbar-toggler {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.navbar-toggler i {
+    color: rgb(0, 0, 0) !important;
+}
+
+.container-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-main {
+    border: 1px solid rgb(65, 65, 65);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#inputPassword2 {
+    border: none;
+    padding: 15px;
+    background-color: #e8e8e8;
+    box-shadow: 6px 6px 12px #ffffff, -6px -6px 12px #c5c5c5;
+}
+
+#inputPassword2:focus {
+    outline-color: rgb(0, 0, 0);
+    place-content: "Enter your message!";
+}
+
+.ui-btn {
+    --btn-default-bg: rgb(41, 41, 41);
+    --btn-padding: 15px 20px;
+    --btn-hover-bg: rgb(51, 51, 51);
+    --btn-transition: .3s;
+    --btn-letter-spacing: .1rem;
+    --btn-animation-duration: 1.2s;
+    --btn-shadow-color: rgba(0, 0, 0, 0.137);
+    --btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);
+    --hover-btn-color: #FAC921;
+    --default-btn-color: #fff;
+    --font-size: 16px;
+    --font-weight: 600;
+    --font-family: Menlo, Roboto Mono, monospace;
+}
+
+.ui-btn {
+    box-sizing: border-box;
+    padding: var(--btn-padding);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--default-btn-color);
+    font: var(--font-weight) var(--font-size) var(--font-family);
+    background: var(--btn-default-bg);
+    border: none;
+    cursor: pointer;
+    transition: var(--btn-transition);
+    overflow: hidden;
+    box-shadow: var(--btn-shadow);
+}
+
+.ui-btn span {
+    letter-spacing: var(--btn-letter-spacing);
+    transition: var(--btn-transition);
+    box-sizing: border-box;
+    position: relative;
+    background: inherit;
+}
+
+.ui-btn span::before {
+    box-sizing: border-box;
+    position: absolute;
+    content: "";
+    background: inherit;
+}
+
+.ui-btn:hover,
+.ui-btn:focus {
+    background: var(--btn-hover-bg);
+}
+
+.ui-btn:hover span,
+.ui-btn:focus span {
+    color: var(--hover-btn-color);
+}
+
+.ui-btn:hover span::before,
+.ui-btn:focus span::before {
+    animation: chitchat linear both var(--btn-animation-duration);
+}
+
+@keyframes chitchat {
+    0% {
+        content: "#";
+    }
+    5% {
+        content: ".";
+    }
+    10% {
+        content: "^{";
+    }
+    15% {
+        content: "-!";
+    }
+    20% {
+        content: "#$_";
+    }
+    25% {
+        content: "№:0";
+    }
+    30% {
+        content: "#{+.";
+    }
+    35% {
+        content: "@}-?";
+    }
+    40% {
+        content: "?{4@%";
+    }
+    45% {
+        content: "=.,^!";
+    }
+    50% {
+        content: "?2@%";
+    }
+    55% {
+        content: "\;1}]";
+    }
+    60% {
+        content: "?{%:%";
+        right: 0;
+    }
+    65% {
+        content: "|{f[4";
+        right: 0;
+    }
+    70% {
+        content: "{4%0%";
+        right: 0;
+    }
+    75% {
+        content: "'1_0<";
+        right: 0;
+    }
+    80% {
+        content: "{0%";
+        right: 0;
+    }
+    85% {
+        content: "]>'";
+        right: 0;
+    }
+    90% {
+        content: "4";
+        right: 0;
+    }
+    95% {
+        content: "2";
+        right: 0;
+    }
+    100% {
+        content: "";
+        right: 0;
+    }
+}
